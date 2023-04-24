@@ -5,3 +5,8 @@
     margin-right: 150px;
     background-color: rgb(48, 160, 29);
 }
+  
+ol{
+    display: inline-block;
+    text-align: left;
+}
