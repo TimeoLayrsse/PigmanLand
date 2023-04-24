@@ -1,0 +1,58 @@
+#centre{
+    text-align: center;
+    padding: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(48, 160, 29);
+}
+
+body{
+    background: #202020;
+    text-align: center;
+    color: #afeeee;
+    font-size: 21px;
+}
+
+a{
+    color: rgb(0, 150, 150);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(202, 202, 202);
+}
+
+ol{
+    display: inline-block;
+    text-align: left;
+}
+
+h4{
+    color:#09cfcf;
+}
+
+.retour{
+    background-color: rgb(79, 117, 231);
+    margin-left: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style:outset;
+    border-color:black;
+    cursor: pointer;
+    outline: none;
+    font-weight:900;
+}
+
+.pages{
+    background-color: rgb(216, 231, 79);
+    margin-left: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style:outset;
+    border-color:black;
+    cursor: pointer;
+    outline: none;
+    font-weight:900;
+}
