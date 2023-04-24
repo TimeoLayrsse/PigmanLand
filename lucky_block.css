@@ -1,0 +1,12 @@
+.retour{
+    background-color: rgb(79, 117, 231);
+    margin-left: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style:outset;
+    border-color:black;
+    cursor: pointer;
+    outline: none;
+    font-weight:900;
+}
