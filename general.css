@@ -1,0 +1,32 @@
+body{
+    background: #202020;
+    text-align: center;
+    color: #afeeee;
+    font-size: 22px;
+
+}
+.pages{
+    background-color: rgb(216, 231, 79);
+    margin-left: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style:outset;
+    border-color:black;
+    cursor: pointer;
+    outline: none;
+    font-weight:900;
+}
+
+a{
+    color: rgb(0, 150, 150);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(202, 202, 202);
+}
+
+h4{
+    color:#09cfcf;
+}
