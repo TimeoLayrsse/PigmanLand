@@ -5,7 +5,24 @@
     margin-right: 150px;
     background-color: rgb(48, 160, 29);
 }
+
 body{
-    background-color: rgb(222, 126, 206);
+    background: #202020;
     text-align: center;
+    color: #afeeee;
+    font-size: 22px;
+}
+
+a{
+    color: rgb(0, 150, 150);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(202, 202, 202);
+}
+
+ol{
+    display: inline-block;
+    text-align: left;
 }
