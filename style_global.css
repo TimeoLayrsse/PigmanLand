@@ -11,6 +11,8 @@ body{
     text-align: center;
     color: #afeeee;
     font-size: 22px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 a{
@@ -25,4 +27,8 @@ h1{
 ol{
     display: inline-block;
     text-align: left;
+}
+.img_lucky{
+    width: 300px;
+    margin-bottom: 30px;
 }
