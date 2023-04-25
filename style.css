@@ -1,16 +1,11 @@
-#centre{
-    text-align: center;
-    padding: 30px;
-    margin-left: 150px;
-    margin-right: 150px;
-    background-color: rgb(48, 160, 29);
-}
 
 body{
     background: #202020;
     text-align: center;
     color: #afeeee;
     font-size: 21px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 a{
@@ -45,9 +40,15 @@ h4{
 }
 
 .pages{
+    text-align: center;
     background-color: rgb(216, 231, 79);
     margin-left: 2%;
-    padding: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;  
     border-radius: 10px;
     border-width: 5px;
     border-style:outset;
@@ -55,4 +56,25 @@ h4{
     cursor: pointer;
     outline: none;
     font-weight:900;
+}
+
+#buttons{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(54, 108, 54);
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#image{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+h2{
+    color:green;
 }
