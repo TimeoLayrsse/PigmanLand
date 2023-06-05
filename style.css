@@ -3,6 +3,8 @@
     border-radius: 8px;
     text-align: center;
     padding:10px;
+    margin-left: 20%;
+    margin-right: 20%;
     font-weight:900;
     align-items: center;
     margin: auto;
@@ -19,11 +21,34 @@
     padding: 30px;
     margin-left: 150px;
     margin-right: 150px;
-    background-color: rgb(48, 160, 29);
+    background-color: blueviolet;
     border-radius: 70px;
   }
 
 body{
     text-align: center;
     background-color: blueviolet;
+}
+
+#pause{
+    height: 20px;
+    width: 20px;
+}
+
+.serveurs{
+    background-color: rgb(0, 255, 30);
+    border-radius: 4px;
+    text-align: center;
+    padding:10px;
+    font-weight:900;
+    align-items: center;
+    margin: auto;
+    color:red;
+    font-size: x-large;
+}
+
+#boutons_serv{
+    background-color: rgb(142, 68, 210);
+    padding:50px;
+    margin-inline: 300px;
 }
