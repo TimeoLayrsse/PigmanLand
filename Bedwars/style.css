@@ -1,3 +1,10 @@
 body{
     text-align: center;
 }
+
+.retour{
+    text-align: center;
+    background-color: red;
+    border-radius: 2px;
+    padding:10px;
+}
