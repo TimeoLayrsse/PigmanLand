@@ -10,7 +10,7 @@
     margin: auto;
   }
   
-  #img_diapo{
+#img_diapo{
     height: 500px;
     margin: auto;
     border-radius: 10px;
@@ -51,4 +51,14 @@ body{
     background-color: rgb(142, 68, 210);
     padding:50px;
     margin-inline: 300px;
+}
+
+#diapo_droit{
+  vertical-align:top;
+  margin-top: 200px;
+}
+
+#diapo_gauche{
+  vertical-align:top;
+  margin-top: 200px;
 }

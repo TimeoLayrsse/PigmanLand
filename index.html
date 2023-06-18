@@ -18,9 +18,10 @@
         </div>
         <br/><hr size="5" noshade="" style="color:#0922A1"><br/>
         <div id="diapo">
-            <button onclick="previous_image()" class="button_diapo">Précédent</button>
-            <button onclick="next_image()" class="button_diapo">Suivant</button>
-            <br/><img id="img_diapo" src="Images/1.webp" /><br/>
+            <button onclick="previous_image()" class="button_diapo" id="diapo_droit">Précédent</button>
+            <img id="img_diapo" src="Images/1.webp" />
+            <button onclick="next_image()" class="button_diapo" id="diapo_gauche">Suivant</button>
+            <br/>
             <button onclick="auto()" class="button_diapo">Auto</button>
             <button onclick="stop()" class="button_diapo" type="submit"><img src="Images/test.pdn" id="pause"></button>
             <p>Vitesse de défilement en ms:</p>
