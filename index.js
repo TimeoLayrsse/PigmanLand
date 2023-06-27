@@ -1,5 +1,5 @@
 let img_index = 0
-let tab = ["Images/1.webp", "Images/2.avif", "Images/3.jpg", "Images/4.jpg"]
+let tab = ["src/ImageIndex/img1.png", "src/ImageIndex/img2.png", "src/ImageIndex/img3.png"]
 
 function previous_image() {
     img_index--;

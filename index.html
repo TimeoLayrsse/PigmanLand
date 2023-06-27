@@ -3,29 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <title>Pigman Land</title>
-        <link rel="shortcut icon" href="Images/logo_pigman.png" />
+        <link rel="shortcut icon" href="src/logo_pigman.png" />
         <link rel="stylesheet" href="style.css">
         <script src="index.js" onload="auto()"></script>
     </head>
     <body>
-        <h1 id><strong>Pigman Land</strong></h1>
-        <p color="red">IMPORTANT: Ce site est entrain d'etre réaménagé et refait. Les images sont des tests et certaines 
-            pages ne sont pas accéssible</p>
-        <div id="boutons_serv">
-            <button onclick="window.location.href = 'Survie/index.html';" class="serveurs">Serveur survie</button>
-            <button onclick="window.location.href = 'Bedwars/main.html';" class="serveurs">Serveur Bedwars</button>
-            <button onclick="window.location.href = 'Build/main.html';" class="serveurs">Serveur Build</button>
-        </div>
-        <br/><hr size="5" noshade="" style="color:#0922A1"><br/>
+        <h1>Pigman Land</h1>
+        <img src="src/logo_pigman.png" alt="Contacte un admin si tu vois ça xD" id="image">
         <div id="diapo">
-            <button onclick="previous_image()" class="button_diapo" id="diapo_droit">Précédent</button>
-            <img id="img_diapo" src="Images/1.webp" />
-            <button onclick="next_image()" class="button_diapo" id="diapo_gauche">Suivant</button>
-            <br/>
-            <button onclick="auto()" class="button_diapo">Auto</button>
-            <button onclick="stop()" class="button_diapo" type="submit"><img src="Images/test.pdn" id="pause"></button>
+            <button onclick="window.location.href = 'accueil_survie.html';" class="bouttons">Serveur survie</button>
+            <button onclick="window.location.href = '';" class="bouttons">Serveur ???</button>
+        </div>
+
+        <hr size="5" noshade="" style="color:#0922A1">
+
+        <div id="diapo">
+            <img id="img_diapo" src="src/ImageIndex/img1.png" sizes=""/>
+
+            <button onclick="previous_image()" class="bouttons" id="diapo_droit">Précédent</button>
+            <button onclick="next_image()" class="bouttons" id="diapo_gauche">Suivant</button>
+            <button onclick="auto()" class="bouttons">Auto</button>
+            <button onclick="stop()" class="bouttons" type="submit">Pause</button>
             <p>Vitesse de défilement en ms:</p>
-            <input id="input" value="5000" onchange="change_delay()" />
+            <input id="input" value="5000" onchange="change_delay()"/>
         </div>
     </body>
 </html>
