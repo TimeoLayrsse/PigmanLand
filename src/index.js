@@ -28,10 +28,3 @@ function auto() {
 function stop() {
     clearInterval(interval_function);
 }
-
-function change_delay() {
-    let delay = document.getElementById("input").value;
-    interval_delay = delay;
-    stop()
-    auto()
-}

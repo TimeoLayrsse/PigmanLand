@@ -9,6 +9,7 @@
   padding: 30px;
   margin-left: 150px;
   margin-right: 150px;
+  margin-bottom: 50px;
   background-color: rgb(27, 27, 27);
   border-radius: 70px;
 }
@@ -24,15 +25,20 @@
   margin: auto;
   color:rgb(175, 175, 175);
   font-size: x-large;
+  margin: 10px;
+}
+
+.page_centrale{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
 }
 
 body{
-background: #202020;
-text-align: center;
-color: #ff9100;
-font-size: 21px;
-margin-left: 20%;
-margin-right: 20%;
+  background: #656464;
+  color: #ff9100;
+  font-size: 21px;
+  margin:0;
 }
 
 h1{
@@ -75,6 +81,7 @@ border-color:black;
 cursor: pointer;
 outline: none;
 font-weight:900;
+margin-bottom: 2%;
 }
 
 .pages{
@@ -96,31 +103,30 @@ outline: none;
 font-weight:900;
 }
 
-#image{
+#logo1{
 width: 100px;
 height: 100px;
+margin-left: 47%;
 text-align: center;
 }
+#logo2{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  }
 
-input{
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  display: inline-block;
-  min-height: 36px;
-  padding: 8px 12px;
-  width: 100%;
-  margin-top: 5px;
-  background: #4b4b4b;
-  border: 1px solid #141414;
-  border-top: 1px solid #303030;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -moz-border-radius: 1px;
-  -webkit-border-radius: 1px;
-  border-radius: 1px;
-  font-size: 15px;
-  color: #aaaaaa;
-  outline: none;
+.btn_accueil{
+  background-color: #09cfcf;
+  border-radius: 20;
+  padding:10px;
+  margin-left: 10px;
+  position: absolute;
+  top: 0;
+  margin-top: 1%;
+}
+
+.bas_page{
+  background-color: #27314d;
+  padding:2%;
+  bottom: 0;
 }

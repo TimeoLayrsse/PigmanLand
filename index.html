@@ -2,30 +2,55 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <title>Pigman Land</title>
+        <title>PigmanLand</title>
         <link rel="shortcut icon" href="src/logo_pigman.png" />
         <link rel="stylesheet" href="src/style.css">
         <script src="src/index.js" onload="auto()"></script>
     </head>
     <body>
-        <h1>Pigman Land</h1>
-        <img src="src/logo_pigman.png" alt="Contacte un admin si tu vois ça xD" id="image">
+        <h1 style="text-align: center;">Pigman Land</h1>
+        <img src="src/logo_pigman.png" alt="Contacte un admin si tu vois ça xD" id="logo1"><br><br><br>
+
+        <!-- serveurs minecraft-->
         <div id="diapo">
-            <button onclick="window.location.href = 'survie_accueil.html';" class="bouttons">Serveur survie</button>
-            <button onclick="window.location.href = '';" class="bouttons">Serveur ???</button>
+            <h2>Serveurs Minecraft</h2>
+            <p>PigmanLand est composé de plusieurs serveurs ayant chacun leur mode de jeu. La SMP est une survie en apparence classique 
+            mais elle regorges de plugins codée par nos dévelopeurs qui vous permettrons de ne pas rejouer une survie de plus qui 
+            recemble à toute les autres mais bien un mode de jeu travaillé. Dans sa page dédiée, tu trouvera des information sur ces 
+            différents plugins qui rendent cette survie si particulière. </p>
+            <button onclick="window.location.href = 'survie_accueil.html';" class="bouttons">SMP</button><br><br>
+            <p>PigmanLand héberge aussi le mythique mode de jeu bedwars. Si vous ètes l'une des rares personnes à ne pas connaitre ce mode 
+            de jeu, ne perdez pas de temps, cliquez ci-dessou pour aller lire les règles et foncez faire votre première partie avec vos 
+            amis, vous ne serez pas déssus. Pour les conaisseurs, vous remarquerez que les maps sont différentes de celles d'hypixel
+            ont été entièrement construite par notre équipe de build, si vous les apréciez, n'hésitez pas à le leur faire savoir.</p>
+            <button onclick="window.location.href = '';" class="bouttons">BEDWARS</button><br><br>
+            <p>Un troisième mode de jeu va arriver sur le serveur, pour le moment c'est un secret 😉.</p>
+            <button onclick="window.location.href = '';" class="bouttons">???</button><br>
+            <br>
+            
         </div>
 
-        <hr size="5" noshade="" style="color:#0922A1">
-
+        <!--boutique-->
         <div id="diapo">
-            <img id="img_diapo" src="src/ImageIndex/img1.png" sizes=""/>
+            <button onclick="window.location.href = 'boutique.html';" class="bouttons">Boutique</button>
+        </div>
 
+        <!--images minecraft-->
+        <div id="diapo">
+            <h2>Le serveur en images...</h2>
+            <img id="img_diapo" src="src/ImageIndex/img1.png" sizes=""/>
+            <br>
             <button onclick="previous_image()" class="bouttons" id="diapo_droit">Précédent</button>
             <button onclick="next_image()" class="bouttons" id="diapo_gauche">Suivant</button>
-            <button onclick="auto()" class="bouttons">Auto</button>
-            <button onclick="stop()" class="bouttons" type="submit">Pause</button>
-            <p>Vitesse de défilement en ms:</p>
-            <input id="input" value="5000" onchange="change_delay()"/>
+        </div>
+        <div class="bas_page">
+            <div style="float: left;"><h3>Qui sommes nous?</h3>
+            <p>PigmanLand est un serveur minecraft hébergent de multiples mods de jeux. <br>Il a été créé en 
+                juin 2023 par un groupe d'amis passionés et bénévoles. </p></div>
+            <div><h3 style="text-align: end;">Rejoins nous sur discord</h3>
+            <p style="text-align: end;"><a href="https://discord.com/channels/1099992946301997126/1113733534515990588" 
+                style="font-family: Stencil Std, fantasy">DISCORD</a></p></div><br>
+            <p style="text-align: center;">v2.1</p>
         </div>
     </body>
 </html>
